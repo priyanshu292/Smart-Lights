@@ -1,10 +1,11 @@
 import './App.css'
+import Home from './components/Home'
 
 function App() {
 
   return (
     <>
-      <h1 className='text-red-600'>Hi</h1>
+      <Home />
     </>
   )
 }
