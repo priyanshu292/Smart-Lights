@@ -4,7 +4,7 @@ import servicesIcon from "../assets/services.png";
 
 const Services: React.FC = () => {
   return (
-    <div className="relative flex flex-col items-center justify-center px-6 md:px-10 mb-16 md:mb-32 py-10 md:py-[20vh]">
+    <div id="software services" className="relative flex flex-col items-center justify-center px-6 md:px-10 mb-16 md:mb-32 py-10 md:py-[20vh]">
       <div className="hidden lg:block absolute top-[27%] left-1/2 w-0.5 h-[150px] border-l-2 border-gray-300"></div>
       <div className="hidden lg:block absolute top-[37%] left-[21.5%] w-[54%] h-0.5 border-t-2 border-gray-300"></div>
       <div className="hidden lg:block absolute top-[37%] left-[40%] w-0.5 h-[400px] border-l-2 border-gray-300"></div>

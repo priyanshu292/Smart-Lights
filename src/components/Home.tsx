@@ -1,14 +1,15 @@
 import React from "react";
 import smart_lights_logo from "../assets/smart_lights_logo.png";
 import Hero_section from "../assets/Hero_section.png";
+import { Link as ScrollLink } from "react-scroll";
 
-interface Link {
+interface NavLink {
   id: number;
   link: string;
 }
 
 const Home: React.FC = () => {
-  const links: Link[] = [
+  const links: NavLink[] = [
     {
       id: 1,
       link: "home",
@@ -19,7 +20,7 @@ const Home: React.FC = () => {
     },
     {
       id: 3,
-      link: "software",
+      link: "software services",
     },
   ];
 
@@ -37,12 +38,15 @@ const Home: React.FC = () => {
           <img className="h-8 md:h-10" src={smart_lights_logo} alt="Smart lights logo" />
           <ul className="hidden md:flex space-x-4 md:space-x-8 lg:space-x-10 items-center">
             {links.map(({ id, link }) => (
-              <li
+              <ScrollLink
                 key={id}
+                to={link}
+                smooth={true}
+                duration={500}
                 className="text-white font-medium hover:text-gray-300 hover:scale-105 duration-200 cursor-pointer capitalize text-sm md:text-base"
               >
                 {link}
-              </li>
+              </ScrollLink>
             ))}
             <li>
               <button className="bg-blue-500 hover:bg-blue-700 text-white font-bold py-1 px-4 md:py-2 md:px-6 lg:px-8 rounded cursor-pointer">

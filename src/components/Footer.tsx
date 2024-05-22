@@ -23,7 +23,9 @@ const Footer: React.FC = () => {
       <div className="hidden md:block border-t w-full md:w-1/2 border-gray-400 mx-10 md:ml-40 mb-10 md:mb-20">
         <div className="container mx-auto flex flex-col md:flex-row justify-start space-y-5 md:space-y-0 space-x-0 md:space-x-10 py-5 text-white">
           <a href="#privacy" className="hover:underline">Privacy Policy</a>
+          <div className="hidden md:block absolute top-[75%] left-[230px] w-0.5 h-[30px] border-l-2 border-white"></div>
           <a href="#terms" className="hover:underline">Terms & Conditions</a>
+          <div className="hidden md:block absolute top-[75%] left-[410px] w-0.5 h-[30px] border-l-2 border-white"></div>
           <a href="#cookie" className="hover:underline">Cookie Policy</a>
         </div>
       </div>

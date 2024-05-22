@@ -7,7 +7,7 @@ import evaluation from "../assets/evaluation.png";
 
 const Ecosystem: React.FC = () => {
   return (
-    <div className="relative bg-gradient-to-tl from-blue-100 flex flex-col items-center justify-center px-10 py-[20vh]">
+    <div id="home" className="relative bg-gradient-to-tl from-blue-100 flex flex-col items-center justify-center px-10 py-[20vh]">
       <div className="text-left w-full max-w-5xl mx-auto">
         <h2 className="relative text-blue-900 font-bold text-2xl inline-block pl-8 py-2">
           Ecosystem

@@ -69,7 +69,7 @@ const Products: React.FC = () => {
   }, []);
 
   return (
-    <div className="relative bg-gradient-to-r from-blue-200 flex flex-col items-center justify-center px-10 py-[20vh] overflow-hidden lg:px-20 lg:py-[25vh] md:px-14 md:py-[22vh] sm:px-6 sm:py-[18vh]">
+    <div id="products" className="relative bg-gradient-to-r from-blue-200 flex flex-col items-center justify-center px-10 py-[20vh] overflow-hidden lg:px-20 lg:py-[25vh] md:px-14 md:py-[22vh] sm:px-6 sm:py-[18vh]">
       <div className="text-left w-full max-w-5xl mx-auto">
         <h2 className="relative text-blue-900 font-bold text-2xl inline-block pl-8 py-2 sm:text-xl sm:pl-6 md:text-2xl lg:text-3xl">
           Products
