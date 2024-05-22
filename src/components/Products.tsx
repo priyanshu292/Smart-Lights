@@ -70,7 +70,7 @@ const Products: React.FC = () => {
 
   return (
     <div id="products" className="relative bg-gradient-to-r from-blue-200 flex flex-col items-center justify-center px-10 py-[20vh] overflow-hidden lg:px-20 lg:py-[25vh] md:px-14 md:py-[22vh] sm:px-6 sm:py-[18vh]">
-      <div className="text-left w-full max-w-5xl mx-auto">
+      <div className="text-left w-full max-w-5xl mx-auto" data-aos="fade-up">
         <h2 className="relative text-blue-900 font-bold text-2xl inline-block pl-8 py-2 sm:text-xl sm:pl-6 md:text-2xl lg:text-3xl">
           Products
           <span className="absolute inset-0 bg-gradient-to-r from-slate-100 to-transparent py-2 w-1/2"></span>
@@ -84,7 +84,7 @@ const Products: React.FC = () => {
         <h1 className="text-2xl mt-4 sm:text-2xl md:text-3xl lg:text-4xl">
           achieve smart development goals
         </h1>
-        <div className="mt-20 grid grid-cols-4 gap-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+        <div className="mt-20 grid grid-cols-4 gap-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4" data-aos="zoom-in">
           {productDetails.map((product, index) => (
             <button
               key={product.id}
@@ -100,7 +100,7 @@ const Products: React.FC = () => {
           ))}
         </div>
 
-        <div className="relative bg-gradient-to-t from-blue-100 to-white mt-8 flex items-center overflow-hidden flex-col sm:flex-row">
+        <div className="relative bg-gradient-to-t from-blue-100 to-white mt-8 flex items-center overflow-hidden flex-col sm:flex-row" data-aos="zoom-in">
           <div className="flex flex-col items-center w-full sm:w-auto sm:flex-row">
             <img
               src={productsImage}

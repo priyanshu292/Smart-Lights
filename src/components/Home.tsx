@@ -35,8 +35,8 @@ const Home: React.FC = () => {
         }}
       >
         <div className="absolute top-0 left-0 right-0 z-20 px-6 md:px-20 lg:px-44 py-5 md:py-8 lg:py-5 flex justify-between items-center border-gray-800 border-b-[0.0025px]">
-          <img className="h-8 md:h-10" src={smart_lights_logo} alt="Smart lights logo" />
-          <ul className="hidden md:flex space-x-4 md:space-x-8 lg:space-x-10 items-center">
+          <img className="h-8 md:h-10" src={smart_lights_logo} alt="Smart lights logo" data-aos="fade-right" />
+          <ul className="hidden md:flex space-x-4 md:space-x-8 lg:space-x-10 items-center" data-aos="fade-left">
             {links.map(({ id, link }) => (
               <ScrollLink
                 key={id}
@@ -57,7 +57,7 @@ const Home: React.FC = () => {
         </div>
 
         <div className="absolute inset-0 z-10 flex justify-center items-center mb-48 md:mb-64 lg:mb-72">
-          <div className="text-center px-4 md:px-0">
+          <div className="text-center px-4 md:px-0" data-aos="fade-up">
             <h1 className="text-white text-2xl md:text-3xl lg:text-3xl">Smart Lighting Solutions</h1>
             <p className="text-blue-300 text-3xl md:text-4xl lg:text-5xl mt-4 md:mt-5 lg:mt-7">
               Bringing A New Perspective To Street Lights

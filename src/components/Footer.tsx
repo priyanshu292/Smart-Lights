@@ -11,10 +11,10 @@ const Footer: React.FC = () => {
       }}
     >
       <div className="container mx-auto flex flex-col md:flex-row justify-between items-center pt-10">
-        <div className="text-white mt-10 md:mt-20 md:mx-40 text-xl flex items-center space-x-2">
+        <div className="text-white mt-10 md:mt-20 md:mx-40 text-xl flex items-center space-x-2" data-aos="fade-right">
           <img className="h-8 md:h-10" src={smart_lights_logo} alt="Smart lights logo" />
         </div>
-        <div className="flex flex-col md:flex-row space-y-5 md:space-y-0 space-x-0 md:space-x-20 mt-10 md:mt-20 md:mx-40 text-white">
+        <div className="flex flex-col md:flex-row space-y-5 md:space-y-0 space-x-0 md:space-x-20 mt-10 md:mt-20 md:mx-40 text-white" data-aos="fade-left">
           <a href="#product" className="hover:underline">Product</a>
           <a href="#services" className="hover:underline">Software Services</a>
           <a href="#follow" className="hover:underline">Follow Us</a>
