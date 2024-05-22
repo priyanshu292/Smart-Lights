@@ -1,6 +1,7 @@
 import './App.css'
 import Ecosystem from './components/Ecosystem'
 import Home from './components/Home'
+import Products from './components/Products'
 
 function App() {
 
@@ -8,6 +9,7 @@ function App() {
     <>
       <Home />
       <Ecosystem />
+      <Products />
     </>
   )
 }
