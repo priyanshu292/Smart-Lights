@@ -1,4 +1,5 @@
 import './App.css'
+import Ecosystem from './components/Ecosystem'
 import Home from './components/Home'
 
 function App() {
@@ -6,6 +7,7 @@ function App() {
   return (
     <>
       <Home />
+      <Ecosystem />
     </>
   )
 }
