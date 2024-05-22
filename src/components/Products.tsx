@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
 import { FaChevronLeft, FaChevronRight } from "react-icons/fa";
 import productsImage from "../assets/products.png";
-import { MdArrowOutward } from "react-icons/md";
+import icon from "../assets/icon_png.png"
 
 const productDetails = [
   {
@@ -120,7 +120,7 @@ const Products: React.FC = () => {
                 </p>
               </div>
               <button className="mt-6 py-2 bg-transparent text-blue-500 inline-flex items-center self-start">
-                Know More <MdArrowOutward className="ml-2]" />
+                Know More <img className="ml-2" src={icon} alt="icon" />
               </button>
             </div>
           </div>
