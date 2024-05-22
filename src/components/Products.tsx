@@ -89,7 +89,7 @@ const Products: React.FC = () => {
             <button
               key={product.id}
               onClick={() => setProductIndex(index)}
-              className={`py-1 text-sm whitespace-nowrap contain-content ${
+              className={`py-1 text-xs whitespace-nowrap contain-content ${
                 ProductIndex === index
                   ? "bg-blue-100 text-blue-800 border-2 border-blue-800 bg-transparent bg-gradient-to-r from-blue-300 via-transparent to-blue-300"
                   : "bg-gray-200 text-gray-800 border-2 border-gray-600 bg-transparent"
@@ -105,7 +105,7 @@ const Products: React.FC = () => {
             <img
               src={productsImage}
               alt="Street Lights"
-              className="w-[85%] h-full max-h-[50vh] max-w-[70%] sm:max-w-[80%] md:max-w-[75%] lg:max-w-[70%]"
+              className="w-[85%] h-full max-h-[60vh] max-w-[70%] sm:max-w-[80%] md:max-w-[75%] lg:max-w-[70%]"
             />
             <div className="ml-8 py-20 flex flex-col justify-between sm:ml-4 sm:py-10 md:ml-6 lg:ml-8 lg:py-20">
               <div>
