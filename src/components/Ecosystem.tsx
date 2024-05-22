@@ -8,7 +8,7 @@ import evaluation from "../assets/evaluation.png";
 const Ecosystem: React.FC = () => {
   return (
     <div id="home" className="relative bg-gradient-to-tl from-blue-100 flex flex-col items-center justify-center px-10 py-[20vh]">
-      <div className="text-left w-full max-w-5xl mx-auto" data-aos="fade-up">
+      <div className="text-left w-full max-w-5xl mx-auto" {...(window.innerWidth > 1000 ? { "data-aos": "fade-up" } : {})}>
         <h2 className="relative text-blue-900 font-bold text-2xl inline-block pl-8 py-2">
           Ecosystem
           <span className="absolute inset-0 bg-gradient-to-r from-blue-800 to-transparent py-2 w-1/2"></span>
@@ -26,7 +26,7 @@ const Ecosystem: React.FC = () => {
         <div className="hidden md:block absolute top-1/2 right-1/3 w-0.5 h-[50px] border-l-2 border-dashed border-gray-400"></div>
 
 
-        <div className="flex flex-col items-center w-full md:w-1/3 p-4" data-aos="fade-right">
+        <div className="flex flex-col items-center w-full md:w-1/3 p-4" {...(window.innerWidth > 1000 ? { "data-aos": "fade-right" } : {})}>
           <div className="flex flex-col md:flex-row">
             <div className="py-2 border-2 border-dashed border-blue-500 mr-0 md:mr-4 mb-4 md:mb-0 rounded-3xl">
               <img
@@ -51,7 +51,7 @@ const Ecosystem: React.FC = () => {
         </div>
 
         
-        <div className="flex flex-col items-center w-full md:w-1/3 p-4" data-aos="zoom-in">
+        <div className="flex flex-col items-center w-full md:w-1/3 p-4" {...(window.innerWidth > 1000 ? { "data-aos": "zoom-in" } : {})}>
           <div className="px-2 py-2 border-2 border-dashed border-gray-400 mr-0 md:mr-4 rounded-3xl">
             <img
               src={gateway_png}
@@ -67,7 +67,7 @@ const Ecosystem: React.FC = () => {
         </div>
 
 
-        <div className="flex flex-col items-center w-full md:w-1/3 p-4" data-aos="fade-left">
+        <div className="flex flex-col items-center w-full md:w-1/3 p-4" {...(window.innerWidth > 1000 ? { "data-aos": "fade-left" } : {})}>
           <div className="px-2 py-2 border-2 border-dashed border-gray-400 mr-0 md:mr-4 rounded-3xl">
             <img
               src={cloud_based_management}
@@ -84,7 +84,7 @@ const Ecosystem: React.FC = () => {
         </div>
 
 
-        <div className="flex flex-col items-center w-full md:w-1/3 p-4 mt-16" data-aos="fade-right">
+        <div className="flex flex-col items-center w-full md:w-1/3 p-4 mt-16" {...(window.innerWidth > 1000 ? { "data-aos": "fade-right" } : {})}>
           <div className="px-2 py-2 border-2 border-dashed border-gray-400 mr-0 md:mr-4 rounded-3xl">
             <img
               src={users}
@@ -100,7 +100,7 @@ const Ecosystem: React.FC = () => {
         </div>
 
 
-        <div className="flex flex-col items-center w-full md:w-1/3 p-4 mt-16" data-aos="fade-left">
+        <div className="flex flex-col items-center w-full md:w-1/3 p-4 mt-16" {...(window.innerWidth > 1000 ? { "data-aos": "fade-left" } : {})}>
           <div className="px-2 py-2 border-2 border-dashed border-gray-400 mr-0 md:mr-4 rounded-3xl">
             <img
               src={evaluation}

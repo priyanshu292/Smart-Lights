@@ -13,17 +13,17 @@ const Services: React.FC = () => {
       <div className="hidden lg:block absolute top-[86%] left-[21.5%] w-[38.5%] h-0.5 border-t-2 border-gray-300"></div>
       <div className="hidden lg:block absolute top-[97%] left-[60%] w-[20%] h-0.5 border-t-2 border-gray-300"></div>
 
-      <h2 className="text-2xl md:text-4xl mb-6 text-center" data-aos="zoom-in">The platform assists city managers</h2>
-      <h2 className="text-2xl md:text-4xl mb-6 text-center" data-aos="zoom-in">on multiple fronts</h2>
+      <h2 className="text-2xl md:text-4xl mb-6 text-center" {...(window.innerWidth > 1000 ? { "data-aos": "zoom-in" } : {})}>The platform assists city managers</h2>
+      <h2 className="text-2xl md:text-4xl mb-6 text-center" {...(window.innerWidth > 1000 ? { "data-aos": "zoom-in" } : {})}>on multiple fronts</h2>
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 max-w-4xl w-full">
         <div className="flex flex-col p-4 mt-10 rounded-lg">
           <img
             src={servicesIcon}
             alt="Icon"
             className="w-12 h-12 md:w-16 md:h-16 items-start mb-4"
-            data-aos="fade-right"
+            {...(window.innerWidth > 1000 ? { "data-aos": "fade-right" } : {})}
           />
-          <span className="text-left text-wrap text-xl md:text-3xl md:w-52" data-aos="fade-right">
+          <span className="text-left text-wrap text-xl md:text-3xl md:w-52" {...(window.innerWidth > 1000 ? { "data-aos": "fade-right" } : {})}>
             Saves on power consumption & related costs
           </span>
         </div>
@@ -32,9 +32,9 @@ const Services: React.FC = () => {
             src={servicesIcon}
             alt="Icon"
             className="w-12 h-12 md:w-16 md:h-16 items-start mb-4"
-            data-aos="fade-left"
+            {...(window.innerWidth > 1000 ? { "data-aos": "fade-left" } : {})}
           />
-          <span className="text-left text-wrap text-xl md:text-3xl md:w-52" data-aos="fade-left">
+          <span className="text-left text-wrap text-xl md:text-3xl md:w-52" {...(window.innerWidth > 1000 ? { "data-aos": "fade-left" } : {})}>
             Lowers downtimes
           </span>
         </div>
@@ -43,9 +43,9 @@ const Services: React.FC = () => {
             src={servicesIcon}
             alt="Icon"
             className="w-12 h-12 md:w-16 md:h-16 items-start mb-4"
-            data-aos="fade-right"
+            {...(window.innerWidth > 1000 ? { "data-aos": "fade-right" } : {})}
           />
-          <span className="text-left text-wrap text-xl md:text-3xl md:w-52" data-aos="fade-right">
+          <span className="text-left text-wrap text-xl md:text-3xl md:w-52" {...(window.innerWidth > 1000 ? { "data-aos": "fade-right" } : {})}>
             Detects power thefts.
           </span>
         </div>
@@ -54,9 +54,9 @@ const Services: React.FC = () => {
             src={servicesIcon}
             alt="Icon"
             className="w-12 h-12 md:w-16 md:h-16 items-start mb-4"
-            data-aos="fade-left"
+            {...(window.innerWidth > 1000 ? { "data-aos": "fade-left" } : {})}
           />
-          <span className="text-left text-wrap text-xl md:text-3xl md:w-52" data-aos="fade-left">
+          <span className="text-left text-wrap text-xl md:text-3xl md:w-52" {...(window.innerWidth > 1000 ? { "data-aos": "fade-left" } : {})}>
             Ensures smart monitoring and control of the street light
             infrastructure.
           </span>
@@ -66,9 +66,9 @@ const Services: React.FC = () => {
             src={servicesIcon}
             alt="Icon"
             className="w-12 h-12 md:w-16 md:h-16 items-start mb-4"
-            data-aos="fade-right"
+            {...(window.innerWidth > 1000 ? { "data-aos": "fade-right" } : {})}
           />
-          <span className="text-left text-wrap text-xl md:text-3xl md:w-96" data-aos="fade-right">
+          <span className="text-left text-wrap text-xl md:text-3xl md:w-96" {...(window.innerWidth > 1000 ? { "data-aos": "fade-right" } : {})}>
             Ensures real-time actionable analytics on power failures, lamp
             malfunctions, voltage failures, etc.
           </span>
@@ -78,9 +78,9 @@ const Services: React.FC = () => {
             src={servicesIcon}
             alt="Icon"
             className="w-12 h-12 md:w-16 md:h-16 items-start mb-4"
-            data-aos="fade-left"
+            {...(window.innerWidth > 1000 ? { "data-aos": "fade-left" } : {})}
           />
-          <span className="text-left text-wrap text-xl md:text-3xl md:w-52" data-aos="fade-left">
+          <span className="text-left text-wrap text-xl md:text-3xl md:w-52" {...(window.innerWidth > 1000 ? { "data-aos": "fade-left" } : {})}>
             Ensures security in the neighborhood
           </span>
         </div>
